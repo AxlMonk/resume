@@ -1,0 +1,28 @@
+html { 
+  box-sizing: border-box; 
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: center/cover no-repeat url('../images/main-background.jpeg')
+}
+
+img { 
+  max-width: 100%; 
+  height: auto;
+}
+
+h1 {
+  color: yellow;
+}
+
+@media (max-width: 768px) {
+  /* Стили для планшетов */
+}
+
+@media (max-width: 480px) {
+  /* Стили для мобильных телефонов */
+}
