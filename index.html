@@ -3,11 +3,51 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Resume</title>
   </head>
-  <body>
-    <h1>Hello World</h1>
+  <body class="body">
+    <div class="container">
+      <header class="main-header">
+        <nav class="main-navigation">
+          <ul id="mainNavList" class="main-navigation__list">
+            <li class="main-navigation__item">
+              <a class="main-header__item--link" href="#">Главная</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-header__item--link" href="#about">Обо мне</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-header__item--link" href="#resume">Резюме</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-header__item--link" href="#portfolio">Портфолио</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-header__item--link" href="#apps">Мои приложения</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-header__item--link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main-info">
+        <h1>Александр Кунгуров</h1>
+        <img class="avatar" src="images/avatar.jpeg" alt="avatar">
+      </main>
+      <section id="about">Обо мне</section>
+      <section id="resume">Резюме</section>
+      <section id="portfolio">Портфолио</section>
+      <section id="apps">Мои приложения</section>
+      <section id="contacts">Контакты</section>
+      <article id="article">Инфа в разделе</article>
+      <aside>Боковое меню</aside>
+      <footer>Подвал</footer>
+    </div>
     <script type="module" src="index.js"></script>
   </body>
 </html>

@@ -1,8 +1,16 @@
 import { getPage } from "./src/pages/page.js";
-import './public/styles/a.css';
+import './src/pages/a.css';
 
-console.log(2341234234)
 getPage();
-console.log("hello, people");
-console.log("hello, web");
-console.log(3452345)
+
+const mainNavList = document.getElementById('mainNavList');
+const mainNavItems = mainNavList.querySelectorAll('li');
+
+mainNavItems.forEach(item => {
+  item.addEventListener('click', function() {
+    mainNavItems[0].classList.add('activated');
+    mainNavItems.forEach(li => li.classList.remove('activated'));
+    this.classList.add('activated');
+  });
+});
+
