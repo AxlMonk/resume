@@ -5,6 +5,14 @@
   --main-header-color: #899593;
 }
 
+@media (max-width: 480px) {
+  /* Стили для мобильных телефонов */
+}
+
+@media (max-width: 768px) {
+  /* Стили для планшетов */
+}
+
 html {
   box-sizing: border-box; 
   max-width: 100vw;
@@ -23,14 +31,6 @@ body {
 img { 
   max-width: 100%; 
   height: auto;
-}
-
-@media (max-width: 768px) {
-  /* Стили для планшетов */
-}
-
-@media (max-width: 480px) {
-  /* Стили для мобильных телефонов */
 }
 
 .container {
@@ -117,4 +117,11 @@ img {
 .avatar {
   width: 250px;
   height: 350px;
+}
+
+.about {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
