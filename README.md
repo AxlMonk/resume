@@ -1,1 +1,1 @@
-Сайт-резюме Кунгурова Александра.
+Hello, I'am fullstack-developer!
