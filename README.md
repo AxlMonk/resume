@@ -1,1 +1,1 @@
-Hello, I'am fullstack-developer!
+Hello, I'm fullstack-developer!
