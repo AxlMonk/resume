@@ -6,14 +6,6 @@
   --main-footer-color: #2c3632;
 }
 
-@media (max-width: 480px) {
-  /* Стили для мобильных телефонов */
-}
-
-@media (max-width: 768px) {
-  /* Стили для планшетов */
-}
-
 html {
   box-sizing: border-box; 
   max-width: 100vw;
@@ -33,4 +25,17 @@ img {
   max-width: 100%; 
   height: auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  /* Стили для планшетов */
+}
+
+@media (max-width: 480px) {
+  /* Стили для мобильных телефонов */
+}
+
 
